@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Template, TemplateEntry, Movement } from "@/types";
-import { Plus, Trash2, GripVertical, Check, X, Search } from "lucide-react";
+import { Plus, Trash2, GripVertical, Check, X, Search, Dumbbell, PlusCircle } from "lucide-react";
 import { SkeletonList } from "./Skeleton";
 
 interface TemplateEditorProps {
@@ -162,4 +162,3 @@ export function TemplateEditor({ initialTemplate, movements, onSave, onCancel }:
   );
 }
 
-import { PlusCircle, Dumbbell as DumbbellIcon } from "lucide-react";
