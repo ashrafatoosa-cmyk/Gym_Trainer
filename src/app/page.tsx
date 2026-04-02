@@ -9,7 +9,7 @@ import { SkeletonList } from "@/components/Skeleton";
 import { db } from "@/lib/firebase";
 import { doc, onSnapshot } from "firebase/firestore";
 import { Workout } from "@/types";
-import { CheckCircle2, TrendingUp, Calendar } from "lucide-react";
+import { CheckCircle2, TrendingUp, Calendar, Dumbbell } from "lucide-react";
 
 export default function HomePage() {
   const { user } = useAuth();
@@ -121,5 +121,3 @@ export default function HomePage() {
   );
 }
 
-// Helper icons imported from lucide-react for the empty state
-import { Dumbbell } from "lucide-react";

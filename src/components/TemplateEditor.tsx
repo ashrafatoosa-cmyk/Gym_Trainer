@@ -2,7 +2,16 @@
 
 import { useState } from "react";
 import { Template, TemplateEntry, Movement } from "@/types";
-import { Plus, Trash2, GripVertical, Check, X, Search, Dumbbell, PlusCircle } from "lucide-react";
+import { 
+  Plus, 
+  Trash2, 
+  GripVertical, 
+  Check, 
+  X, 
+  Search, 
+  Dumbbell, 
+  PlusCircle 
+} from "lucide-react";
 import { SkeletonList } from "./Skeleton";
 
 interface TemplateEditorProps {
